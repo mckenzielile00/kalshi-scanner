@@ -1,170 +1,50 @@
 {
-  "generated_unix": 1782327834,
+  "generated_unix": 1795383042,
   "count": 2,
   "findings": [
     {
       "scanner": "complete-set",
       "kind": "LOCK",
-      "key": "cs-yes:KXHOUSERACE-MN04-26",
-      "summary": "Complete-set (YES) KXHOUSERACE-MN04-26: sum=0.969 < $1",
-      "edge_c": 2.3,
+      "key": "cs-yes:KXHOUSERACE-IN04-28",
+      "summary": "Complete-set (YES) KXHOUSERACE-IN04-28: sum=0.953 < $1",
+      "edge_c": 3.9,
       "legs": [
         {
           "action": "BUY YES",
-          "ticker": "KXHOUSERACE-MN04-26-D",
-          "price_c": 92,
+          "ticker": "KXHOUSERACE-IN04-28-D",
+          "price_c": 4,
           "url": "https://kalshi.com/markets/kxhouserace"
         },
         {
           "action": "BUY YES",
-          "ticker": "KXHOUSERACE-MN04-26-R",
-          "price_c": 5,
+          "ticker": "KXHOUSERACE-IN04-28-R",
+          "price_c": 91,
           "url": "https://kalshi.com/markets/kxhouserace"
         }
       ],
-      "detail": "Buy YES on all 2 outcomes; net $0.98 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
+      "detail": "Buy YES on all 2 outcomes; net $0.96 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
     },
     {
       "scanner": "complete-set",
       "kind": "LOCK",
-      "key": "cs-yes:KXNEXTAG-29",
-      "summary": "Complete-set (YES) KXNEXTAG-29: sum=0.953 < $1",
-      "edge_c": 1.4,
+      "key": "cs-yes:KXHOUSERACE-LA01-28",
+      "summary": "Complete-set (YES) KXHOUSERACE-LA01-28: sum=0.983 < $1",
+      "edge_c": 1.2,
       "legs": [
         {
           "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-LZEL",
-          "price_c": 8,
-          "url": "https://kalshi.com/markets/kxnextag"
+          "ticker": "KXHOUSERACE-LA01-28-D",
+          "price_c": 3,
+          "url": "https://kalshi.com/markets/kxhouserace"
         },
         {
           "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-MGAE",
-          "price_c": 1,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-MWHI",
-          "price_c": 0,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-JJEN",
-          "price_c": 0,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-ACAN",
-          "price_c": 0,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-JCLA",
-          "price_c": 1,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-ABAI",
-          "price_c": 2,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-JPIR",
-          "price_c": 1,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-MLEE",
-          "price_c": 0,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-TBLA",
-          "price_c": 69,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-KPAX",
-          "price_c": 1,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-ESCH",
-          "price_c": 0,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-HDHI",
-          "price_c": 1,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-TCRU",
-          "price_c": 0,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-AHAB",
-          "price_c": 1,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-AMOO",
-          "price_c": 0,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-RDES",
-          "price_c": 5,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-RGIU",
-          "price_c": 0,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-JMIY",
-          "price_c": 0,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-EMAR",
-          "price_c": 1,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-YROT",
-          "price_c": 1,
-          "url": "https://kalshi.com/markets/kxnextag"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXNEXTAG-29-RGIUL",
-          "price_c": 1,
-          "url": "https://kalshi.com/markets/kxnextag"
+          "ticker": "KXHOUSERACE-LA01-28-R",
+          "price_c": 96,
+          "url": "https://kalshi.com/markets/kxhouserace"
         }
       ],
-      "detail": "Buy YES on all 22 outcomes; net $0.99 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
+      "detail": "Buy YES on all 2 outcomes; net $0.99 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
     }
   ]
 }
