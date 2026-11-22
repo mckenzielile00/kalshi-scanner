@@ -1,4 +1,5 @@
 name: scan
+# Enable Kalshi scanner
 # Runs the scanners on a schedule with no machine of your own. The Discord
 # webhook is injected from the repo secret DISCORD_WEBHOOK_URL (never in code).
 on:
