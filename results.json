@@ -1,13 +1,13 @@
 {
-  "generated_unix": 1795416620,
+  "generated_unix": 1795421710,
   "count": 1,
   "findings": [
     {
       "scanner": "complete-set",
       "kind": "LOCK",
       "key": "cs-yes:KXHOUSERACE-LA01-28",
-      "summary": "Complete-set (YES) KXHOUSERACE-LA01-28: sum=0.983 < $1",
-      "edge_c": 1.2,
+      "summary": "Complete-set (YES) KXHOUSERACE-LA01-28: sum=0.984 < $1",
+      "edge_c": 1.1,
       "legs": [
         {
           "action": "BUY YES",
