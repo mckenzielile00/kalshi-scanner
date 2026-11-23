@@ -1,28 +1,5 @@
 {
-  "generated_unix": 1795471567,
-  "count": 1,
-  "findings": [
-    {
-      "scanner": "complete-set",
-      "kind": "LOCK",
-      "key": "cs-yes:KXHOUSERACE-LA01-28",
-      "summary": "Complete-set (YES) KXHOUSERACE-LA01-28: sum=0.984 < $1",
-      "edge_c": 1.1,
-      "legs": [
-        {
-          "action": "BUY YES",
-          "ticker": "KXHOUSERACE-LA01-28-D",
-          "price_c": 3,
-          "url": "https://kalshi.com/markets/kxhouserace"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXHOUSERACE-LA01-28-R",
-          "price_c": 96,
-          "url": "https://kalshi.com/markets/kxhouserace"
-        }
-      ],
-      "detail": "Buy YES on all 2 outcomes; net $0.99 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
-    }
-  ]
+  "generated_unix": 1795474556,
+  "count": 0,
+  "findings": []
 }
