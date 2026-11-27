@@ -1,7 +1,29 @@
 {
-  "generated_unix": 1795811269,
-  "count": 4,
+  "generated_unix": 1795814725,
+  "count": 2,
   "findings": [
+    {
+      "scanner": "complete-set",
+      "kind": "LOCK",
+      "key": "cs-yes:KXPRESSTATE-MS-28",
+      "summary": "Complete-set (YES) KXPRESSTATE-MS-28: sum=0.960 < $1",
+      "edge_c": 2.0,
+      "legs": [
+        {
+          "action": "BUY YES",
+          "ticker": "KXPRESSTATE-MS-28-D",
+          "price_c": 15,
+          "url": "https://kalshi.com/markets/kxpresstate"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXPRESSTATE-MS-28-R",
+          "price_c": 81,
+          "url": "https://kalshi.com/markets/kxpresstate"
+        }
+      ],
+      "detail": "Buy YES on all 2 outcomes; net $0.98 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
+    },
     {
       "scanner": "complete-set",
       "kind": "LOCK",
@@ -71,78 +93,6 @@
         }
       ],
       "detail": "Buy YES on all 10 outcomes; net $0.98 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
-    },
-    {
-      "scanner": "complete-set",
-      "kind": "LOCK",
-      "key": "cs-yes:KXHOUSERACE-LA01-28",
-      "summary": "Complete-set (YES) KXHOUSERACE-LA01-28: sum=0.980 < $1",
-      "edge_c": 1.5,
-      "legs": [
-        {
-          "action": "BUY YES",
-          "ticker": "KXHOUSERACE-LA01-28-D",
-          "price_c": 2,
-          "url": "https://kalshi.com/markets/kxhouserace"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXHOUSERACE-LA01-28-R",
-          "price_c": 96,
-          "url": "https://kalshi.com/markets/kxhouserace"
-        }
-      ],
-      "detail": "Buy YES on all 2 outcomes; net $0.98 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
-    },
-    {
-      "scanner": "complete-set",
-      "kind": "LOCK",
-      "key": "cs-yes:KXPRESWINNERGEN-28",
-      "summary": "Complete-set (YES) KXPRESWINNERGEN-28: sum=0.950 < $1",
-      "edge_c": 1.2,
-      "legs": [
-        {
-          "action": "BUY YES",
-          "ticker": "KXPRESWINNERGEN-28-MIL",
-          "price_c": 47,
-          "url": "https://kalshi.com/markets/kxpreswinnergen"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXPRESWINNERGEN-28-GENX",
-          "price_c": 42,
-          "url": "https://kalshi.com/markets/kxpreswinnergen"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXPRESWINNERGEN-28-BOOM",
-          "price_c": 6,
-          "url": "https://kalshi.com/markets/kxpreswinnergen"
-        }
-      ],
-      "detail": "Buy YES on all 3 outcomes; net $0.99 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
-    },
-    {
-      "scanner": "complete-set",
-      "kind": "LOCK",
-      "key": "cs-yes:KXHOUSERACE-FL10-28",
-      "summary": "Complete-set (YES) KXHOUSERACE-FL10-28: sum=0.983 < $1",
-      "edge_c": 1.1,
-      "legs": [
-        {
-          "action": "BUY YES",
-          "ticker": "KXHOUSERACE-FL10-28-D",
-          "price_c": 95,
-          "url": "https://kalshi.com/markets/kxhouserace"
-        },
-        {
-          "action": "BUY YES",
-          "ticker": "KXHOUSERACE-FL10-28-R",
-          "price_c": 3,
-          "url": "https://kalshi.com/markets/kxhouserace"
-        }
-      ],
-      "detail": "Buy YES on all 2 outcomes; net $0.99 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
     }
   ]
 }
