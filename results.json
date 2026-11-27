@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795761569,
+  "generated_unix": 1795766542,
   "count": 2,
   "findings": [
     {
@@ -28,8 +28,8 @@
       "scanner": "complete-set",
       "kind": "LOCK",
       "key": "cs-yes:KXHOUSERACE-FL10-28",
-      "summary": "Complete-set (YES) KXHOUSERACE-FL10-28: sum=0.984 < $1",
-      "edge_c": 1.0,
+      "summary": "Complete-set (YES) KXHOUSERACE-FL10-28: sum=0.983 < $1",
+      "edge_c": 1.1,
       "legs": [
         {
           "action": "BUY YES",
