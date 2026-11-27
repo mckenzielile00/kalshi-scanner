@@ -1,7 +1,77 @@
 {
-  "generated_unix": 1795766542,
-  "count": 2,
+  "generated_unix": 1795770167,
+  "count": 3,
   "findings": [
+    {
+      "scanner": "complete-set",
+      "kind": "LOCK",
+      "key": "cs-yes:KXNEWSCOTUSCONF-29JAN20",
+      "summary": "Complete-set (YES) KXNEWSCOTUSCONF-29JAN20: sum=0.953 < $1",
+      "edge_c": 1.7,
+      "legs": [
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-0",
+          "price_c": 71,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-1",
+          "price_c": 7,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-2",
+          "price_c": 9,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-3",
+          "price_c": 2,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-4",
+          "price_c": 2,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-5",
+          "price_c": 1,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-6",
+          "price_c": 1,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-7",
+          "price_c": 1,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-8",
+          "price_c": 1,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXNEWSCOTUSCONF-29JAN20-9",
+          "price_c": 1,
+          "url": "https://kalshi.com/markets/kxnewscotusconf"
+        }
+      ],
+      "detail": "Buy YES on all 10 outcomes; net $0.98 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
+    },
     {
       "scanner": "complete-set",
       "kind": "LOCK",
