@@ -1,6 +1,6 @@
 {
-  "generated_unix": 1795807972,
-  "count": 3,
+  "generated_unix": 1795811269,
+  "count": 4,
   "findings": [
     {
       "scanner": "complete-set",
@@ -93,6 +93,34 @@
         }
       ],
       "detail": "Buy YES on all 2 outcomes; net $0.98 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
+    },
+    {
+      "scanner": "complete-set",
+      "kind": "LOCK",
+      "key": "cs-yes:KXPRESWINNERGEN-28",
+      "summary": "Complete-set (YES) KXPRESWINNERGEN-28: sum=0.950 < $1",
+      "edge_c": 1.2,
+      "legs": [
+        {
+          "action": "BUY YES",
+          "ticker": "KXPRESWINNERGEN-28-MIL",
+          "price_c": 47,
+          "url": "https://kalshi.com/markets/kxpreswinnergen"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXPRESWINNERGEN-28-GENX",
+          "price_c": 42,
+          "url": "https://kalshi.com/markets/kxpreswinnergen"
+        },
+        {
+          "action": "BUY YES",
+          "ticker": "KXPRESWINNERGEN-28-BOOM",
+          "price_c": 6,
+          "url": "https://kalshi.com/markets/kxpreswinnergen"
+        }
+      ],
+      "detail": "Buy YES on all 3 outcomes; net $0.99 for $1. VERIFY the event is collectively exhaustive (no missing outcome) + size."
     },
     {
       "scanner": "complete-set",
